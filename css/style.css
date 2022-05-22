@@ -1,0 +1,605 @@
+/*HEADER*/
+
+body {font-family: 'Montserrat', sans-serif !important;}
+
+h1, header p  {text-align: center;}
+
+header nav div ul li {position: right;}
+
+
+
+.navbar {
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+
+.dropbtn {
+  background-color: transparent;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  padding: 6px 8px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: white;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  color: #5271ff !important;
+}
+
+.nome:hover {
+	color: #5271ff !important;
+}
+
+.logoheader {
+	width: 100%;
+	height: 100px;
+}
+
+.titoloslide { 
+	text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#instagramicon {
+	font-size: 2em;
+	margin-right: 30px;
+}
+
+#facebookicon {
+	font-size: 26px;
+	margin-right: 20px;}
+
+.sezionebarradinavigazione {
+	margin: 0 auto;
+	text-align: center;
+}
+
+/*SLIDER*/
+
+.carosello {
+	width: 100%;
+	max-height: 600px;
+}
+
+.bottoneslider {
+	border: none !important;
+	color: white !important;
+}
+
+.bottoneslider:hover {background-color: #5271ff !important;}
+
+.slide {width: 100%;}
+
+#scopridipiu1 {padding-bottom: 115px !important;}
+
+#scopridipiu2 {padding-bottom: 75px !important;}
+
+#scopridipiu3 {padding-bottom: 115px !important;}
+
+.sezionebarranavigazione#orizzontale {
+padding-left: 20px !important;
+padding-right: 20px !important;
+}
+
+p {
+	font-family: 'Kanit', sans-serif;
+	font-size: 18px;
+}
+
+/*SEZIONE STORIA*/
+
+.titolostoria {
+	font-size: 50px;
+    font-weight: bold;
+	text-align: center;
+	margin: 0px;
+	padding-bottom: 20px;
+}
+
+.sottotitolostoria {
+	padding-top: 50px;
+	text-align: center;
+	font-family: 'Indie Flower', cursive !important;
+	color: #5271ff;
+	margin: 0px;
+}
+
+.paragrafostoria {padding-bottom: 50px !important;}
+
+#descrizionestoria {
+	text-align: center;
+	padding-bottom: 50px !important;}
+
+/*SEZIONE SERIVIZI*/
+
+.titoloservizi {
+	font-size: 50px;
+    font-weight: bold;
+	text-align: center;
+	background-color: #FFF8F2 !important;
+	margin: 0px;
+}
+
+.col-sm-12 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	position: relative;
+}
+
+.sottotitoloservizi {
+	padding-top: 20px !important;
+	text-align: center;
+	font-family: 'Indie Flower', cursive !important;
+	color: #5271ff;
+	background-color: #FFF8F2 !important;
+	margin: 0px;
+}
+
+.sezioneservizi {
+	padding-top: 50px !important;
+	background-color: #FFF8F2 !important;
+}
+
+.colonna1 {padding-left: 12px;
+padding-right: 12px;}
+
+.colonnauno, .colonnadue, .colonnatre {
+	border: none !important;
+margin-right: 0px !important;}
+
+.card-title {
+	font-weight: bold;
+	text-align: center;
+}
+
+.card-text {text-align: center;}
+
+.scopritutti { 
+	text-align: center;
+	font-size: 20px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-bottom: 0px !important;
+	color: black !important;
+}
+
+.scopritutti:hover {
+	background-color: #FFF8F2 !important;
+	color: #5271ff !important;
+}
+
+.botton {text-align: center !important;}
+
+.colorebottone {background-color: #5271ff !important;}
+
+/*SEZIONE SALE*/
+
+.sezionesale {
+	padding-top: 50px !important;
+	background-image: url(../img/disco.png);
+	margin-top: 0px !important;
+}
+
+.titolosala {
+	font-size: 50px;
+    font-weight: bold;
+	text-align: center;
+	margin: 0px;
+	color: white;
+	padding-bottom: 60px;
+}
+
+.sottotitolosala {
+	text-align: center;
+	font-family: 'Indie Flower', cursive !important;
+	color: #5271ff;
+	margin: 0px;
+}
+
+.sale {
+	padding-left: 30px !important;
+	margin-left: 25px !important;
+	padding-right: 30px !important;
+	margin-right: 25px !important;
+	background-color: #FFF8F2;
+	border-radius: 8px;
+}
+
+.colonnasale {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+}
+
+.colonnadescrizione {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.nav-pills .nav-link.active {
+	color: white !important;
+	background-color: #5271ff !important;
+}
+
+.nav-link {color: black !important;}
+
+.salaprenotazione { 
+	text-align: center;
+	font-size: 20px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: white !important;
+}
+
+/*SEZIONE PORTFOLIO*/
+
+.titoloportfolio {
+	font-size: 50px;
+    font-weight: bold;
+	text-align: center;
+	margin: 0px;
+	padding-bottom: 60px;
+}
+
+.sottotitoloportfolio {
+	padding-top: 50px !important;
+	text-align: center;
+	font-family: 'Indie Flower', cursive !important;
+	color: #5271ff;
+	margin: 0px;
+}
+
+.foto {filter: grayscale(1);}
+
+.foto:hover {filter: none;}
+
+.nomifotoclienti {
+	font-size: 30px;
+	font-family: 'Indie Flower', cursive !important;
+	color: #5271ff;
+	padding-top: 20px;
+	margin-bottom: 0px !important;
+}
+
+.frecciasinistra, .frecciadestra {
+	font-size: 2em;
+	padding-left: 10px;
+	margin: 0px;
+}
+
+.marginefoto {
+	padding-bottom: 20px;
+}
+
+/* UN SEMPLICE STILE DI BASE */
+body { background: #FFFFFF; margin: 10px; }
+img { border: none; }
+
+/* DIMENSIONIAMO LE CELLE CONTENENTI LE FRECCE */
+#thumb_arrow_left { width: 50px; }
+#thumb_arrow_right {width: 50px; }
+
+/* IMPOSTIAMO LA LARGHEZZA AL CONTENITORE DELLA THUMB */
+#thumb_content { width: 500px; }
+
+/* GENERIAMO LE CLASSI CHE NASCONDERANNO E MOSTRERANNO I VARI BLOCCHI */
+div.thumb_hide { display: none; visibility: hidden; position: absolute; }
+div.thumb_show { visibility: visible; }
+
+.portfolio {
+	padding-bottom: 100px !important;
+}
+	
+table {
+	width: 100% !important;
+	max-width: 500px !important;
+}
+
+/*SEZIONE CONTATTI*/
+
+.titolocontatti {
+	font-size: 50px;
+    font-weight: bold;
+	text-align: center;
+	margin: 0px;
+	padding-bottom: 20px;
+	padding-top: 100px;
+	color: #5271ff;
+}
+
+.testocontatti {
+	text-align: center;
+	font-size: 2em;
+	padding-top: 0px;
+}
+
+.testocontatti2 {
+	text-align: center;
+	font-size: 2em;
+	padding-top: 0px;
+	padding-bottom: 100px;
+}
+
+.sezionecontatti { background-color: #FFF8F2;}
+
+/*FOOTER*/
+
+.footernavbar {
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+}
+
+.diritti {
+	padding-left: 30px !important;
+	margin-bottom: 0px !important;
+}
+
+.borderbottom {color: #5271ff !important;}
+
+.primacolonnafooter {
+	padding-left: 50px !important;
+padding-bottom: 0px;
+padding-top: 0px;}
+
+.terzacolonnafooter {padding-right: 50px !important;
+padding-top: 0px;}
+
+.informazionifooter {color: #5271ff !important;}
+
+#instagramiconfooter {
+	color: black;
+	font-size: 2em;
+	margin-right: 30px;
+}
+
+#facebookiconfooter {
+	color: black;
+	font-size: 26px;
+	margin-right: 10px;
+}
+
+.btn {
+	padding-top: 12px !important;
+	padding-bottom: 12px !important;
+}
+
+.alignsinistra {text-align: left !important;}
+
+.aligndestra {text-align: right !important;}
+
+.li {margin-bottom: 0px !important;}
+
+/*PAGINA DOCUMENTAZIONE*/
+
+.fotodocumentazione {
+	width: 100%;
+	max-height: 500px;
+}
+
+.titoloslidedocumentazione {
+	text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 400px;
+}
+
+#titoloabstract, #titolopmp, #titolocs {
+	font-family: 'Indie Flower', cursive !important;
+	font-size: 60px;
+	padding-top: 50px;
+	color: #5271ff;
+	text-align: left;
+}
+
+#titolobench {
+	font-family: 'Indie Flower', cursive !important;
+	font-size: 40px;
+	padding-top: 50px;
+	color: #5271ff;
+	text-align: left;
+	padding-bottom: 30px;
+}
+
+#descrizioneabstract, #descrizionepmp, #descrizionecs {text-align: left;}
+
+.sottotitolobench {
+	text-align: left;
+}
+
+.mappasito { 
+max-width: 50%;}
+
+/*PAGINA PRENOTA ORA*/
+
+input[type=text], select, textarea, input[type=date] {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: #f2f2f2; 
+}
+
+input[type=submit] {
+  background-color: #5271ff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {color: #FFF8F2;}
+
+.container {
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+}
+
+.sezioneinformazioniagg {padding-top: 20px;}
+
+.boxdata {padding-top: 16px !important;}
+
+/*PAGINA CONTATTI*/
+
+.testopaginacontatti {
+	text-align: center;
+	font-size: 2.5em;
+	padding-top: 0px;
+}
+
+.testopaginacontatti2 {
+	text-align: center;
+	font-size: 1em;
+	padding-top: 0px;
+	padding-right: 20px;
+}
+
+.testopaginacontatti3 {
+	text-align: center;
+	font-size: 1em;
+	padding-top: 0px;
+}
+
+.paragrafostoria {
+	padding-bottom: 0px !important;
+	padding-top: 0px !important;
+}
+
+.mapouter{
+	position:relative;
+	text-align:right;
+	height:500px;
+	width:100%;
+}
+
+#gmap_canvas {
+	overflow:hidden;
+	background:none!important;
+	height:500px;
+	width:100%;
+}
+
+.listapaginacontatti {
+	margin-bottom: 20px;
+}
+
+.orari {
+list-style-type: none !important;
+padding-bottom: 20px;
+padding-left: 0px !important;
+}
+
+#descrizionechisiamo {
+	text-align: center;
+	padding-bottom: 20px !important;}
+
+/*PAGINA SALE DI LAVORO*/
+
+.paragrafoprogetto {
+	margin-bottom: 100px;
+}
+
+.card {
+	border: none !important;
+}
+
+.cardleft {
+	text-align: left !important;
+}
+
+.cardright {
+	padding-left: 20px;
+	text-align: right !important;
+}
+
+.sottotitolostrumentisalaleft {
+	padding-top: 2%;
+	padding-left: 20px;
+	text-align: left;
+	font-family: 'Indie Flower', cursive !important;
+	color: #5271ff;
+	margin: 0px;
+	font-size: 50px;
+}
+
+.sottotitolostrumentisalaright {
+	padding-top: 2%;
+	padding-right: 20px;
+	text-align: right;
+	font-family: 'Indie Flower', cursive !important;
+	color: #5271ff;
+	margin: 0px;
+	font-size: 50px;
+}
+
+.testostrumentileft {
+	text-align: left;
+}
+
+.testostrumentiright {
+	text-align: right;
+}
+
+.lineaseparatrice {
+	color: #5271ff;
+  	border-top: 2px solid;
+  	margin-top: 50px;
+  	margin-bottom: 50px;
+}
+
+.lineaseparatriceinfi {
+	color: #5271ff;
+  	border-top: 2px solid;
+  	margin-top: 50px;
+  	margin-bottom: 50px;
+}
+
+.bottonesaledilavoro {
+	background-color: #5271ff !important;
+}
+
+.bottoneprenotasaledilavoro {
+	background-color: #5271ff  !important;
+}
+
+.prenotaunasala {padding-bottom: 10px;}
+
+
+
+
+
+
+
+
