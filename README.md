@@ -1,2 +1,2 @@
-# Instrumental-Studio
+# InstrumentalStudio
 Il mio primo sito web
