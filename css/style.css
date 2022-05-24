@@ -57,7 +57,7 @@ header nav div ul li {position: right;}
 }
 
 .logoheader {
-	width: 100%;
+	width: 100px;
 	height: 100px;
 }
 
@@ -65,6 +65,7 @@ header nav div ul li {position: right;}
 	text-align: center;
     font-size: 60px;
     font-weight: bold;
+    padding-bottom: 30px !important;
 }
 
 #instagramicon {
@@ -91,17 +92,22 @@ header nav div ul li {position: right;}
 .bottoneslider {
 	border: none !important;
 	color: white !important;
+	background-color: #5271ff !important;
 }
 
-.bottoneslider:hover {background-color: #5271ff !important;}
+.bottoneslider:hover {
+	color: black !important;
+	background-color: #FFF8F2 !important;
+
+}
 
 .slide {width: 100%;}
 
-#scopridipiu1 {padding-bottom: 115px !important;}
+#scopridipiu1 {padding-bottom: 130px !important;}
 
-#scopridipiu2 {padding-bottom: 75px !important;}
+#scopridipiu2 {padding-bottom: 90px !important;}
 
-#scopridipiu3 {padding-bottom: 115px !important;}
+#scopridipiu3 {padding-bottom: 130px !important;}
 
 .sezionebarranavigazione#orizzontale {
 padding-left: 20px !important;
